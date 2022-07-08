@@ -12,7 +12,8 @@ let package = Package(
         // Products define the executables and libraries a package produces, and make them visible to other packages.
         .library(
             name: "PublicSDK",
-            targets: ["PublicSDK"]),
+            targets: ["PublicSDK"]
+        ),
     ],
     dependencies: [
         // Dependencies declare other packages that this package depends on.
@@ -23,9 +24,11 @@ let package = Package(
         // Targets can depend on other targets in this package, and on products in packages this package depends on.
         .target(
             name: "PublicSDK",
-            dependencies: []),
+            dependencies: []
+        ),
         .testTarget(
             name: "PublicSDKTests",
-            dependencies: ["PublicSDK"]),
+            dependencies: ["PublicSDK"]
+        ),
     ]
 )
