@@ -4,7 +4,7 @@
 import PackageDescription
 
 let package = Package(
-    name: "PublicSDKPackage",
+    name: "PublicSDK",
     platforms: [
         .iOS(.v15)
     ],
