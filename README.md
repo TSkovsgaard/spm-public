@@ -1,2 +1,3 @@
-# spm-public
-Test project
+# PublicSDK
+
+A description of this package.
